@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b416adc4.css",
+    "main.js": "/static/js/main.2b58efb0.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/kids.jpg": "/static/media/kids.298e30cf52d57117ea9f.jpg",
+    "static/media/farming.jpg": "/static/media/farming.32674b6113a179b06a02.jpg",
+    "static/media/book.jpg": "/static/media/book.0e70c3ed055d3256af13.jpg",
+    "static/media/donation.jpg": "/static/media/donation.48dd2ca21646fdca3874.jpg",
+    "static/media/donate.jpg": "/static/media/donate.54209df4b23d0f89892e.jpg",
+    "static/media/wheat.jpeg": "/static/media/wheat.42383fe65497f9746326.jpeg",
+    "static/media/kartikeyLogo.png": "/static/media/kartikeyLogo.9b8da8b922985e4e3f06.png",
+    "static/media/kartikeyLogo1.png": "/static/media/kartikeyLogo1.829433477ecff53f6003.png",
+    "static/media/avatarUser.png": "/static/media/avatarUser.614d3955d75819c3f4c1.png",
+    "index.html": "/index.html",
+    "main.b416adc4.css.map": "/static/css/main.b416adc4.css.map",
+    "main.2b58efb0.js.map": "/static/js/main.2b58efb0.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b416adc4.css",
+    "static/js/main.2b58efb0.js"
+  ]
+}
