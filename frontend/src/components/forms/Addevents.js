@@ -7,7 +7,7 @@ const Addevents = () => {
 
     const handleLogin = async () => {
         try {
-            const response = await fetch("http://localhost:4009/api/v1/upcomingevents", {
+            const response = await fetch("/api/v1/upcomingevents", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

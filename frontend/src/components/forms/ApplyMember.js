@@ -40,7 +40,7 @@ const ApplyMember = () => {
         setIsLoading(true);
 
         try {
-            const response = await fetch('http://localhost:4009/api/v1/applyMembers', {
+            const response = await fetch('/api/v1/applyMembers', {
                 method: 'POST',
                 body: formDataToSend,
             });

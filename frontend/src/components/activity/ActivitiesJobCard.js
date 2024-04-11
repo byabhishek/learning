@@ -14,7 +14,7 @@ const ActivitiesJobCard = () => {
   useEffect(() => {
     const fetchActivityJobCards = async () => {
       try {
-        const response = await fetch('http://localhost:4009/api/v1/activityJobCard');
+        const response = await fetch('/api/v1/activityJobCard');
         if (!response.ok) {
           throw new Error('Failed to fetch activityJobCards');
         }

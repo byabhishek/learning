@@ -25,7 +25,7 @@ const YourProblem = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://localhost:4009/api/v1/problemForm', {
+      const response = await fetch('/api/v1/problemForm', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

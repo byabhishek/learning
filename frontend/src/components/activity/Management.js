@@ -9,7 +9,7 @@ const Management = () => {
   useEffect(() => {
     const fetchMembers = async () => {
       try {
-        const response = await fetch('http://localhost:4009/api/v1/memberslider');
+        const response = await fetch('/api/v1/memberslider');
         if (!response.ok) {
           throw new Error('Failed to fetch members');
         }

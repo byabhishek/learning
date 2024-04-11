@@ -11,7 +11,7 @@ const Objectives = () => {
   useEffect(() => {
     const fetchObjectives = async () => {
       try {
-        const response = await fetch('http://localhost:4009/api/v1/objectiveData');
+        const response = await fetch('/api/v1/objectiveData');
         if (!response.ok) {
           throw new Error('Failed to fetch objectiveData');
         }

@@ -8,7 +8,7 @@ const AboutUs = () => {
     useEffect(() => {
         const fetchAboutUs = async () => {
             try {
-                const response = await fetch('http://localhost:4009/api/v1/aboutUsData');
+                const response = await fetch('/api/v1/aboutUsData');
                 if (!response.ok) {
                     throw new Error('Failed to fetch AboutUs');
                 }
